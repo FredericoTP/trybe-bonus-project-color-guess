@@ -2,6 +2,7 @@ const ball = document.getElementsByClassName('ball');
 const pRgbColor = document.getElementById('rgb-color');
 const pAnswer = document.getElementById('answer');
 const buttonResetGame = document.getElementById('reset-game');
+const scoreNumber = document.getElementById('scoreNumber');
 
 function randomColor() {
   const red = Math.floor(Math.random() * 256);
@@ -33,8 +34,10 @@ pAnswer.innerText = 'Escolha uma cor';
 function ifColorEqual(event) {
 	if (event.target.style.backgroundColor == pRgbColor.innerText) {
 		pAnswer.innerText = 'Acertou!';
+    scoreNumber.innerText = parseInt(scoreNumber.innerText) + 3;
 	} else {
 		pAnswer.innerText = 'Errou! Tente novamente!';
+    scoreNumber.innerText = 0;
 	}
 }
 
