@@ -9,7 +9,6 @@
 .ball {
   width: 100px;
   height: 100px;
-  background-color: black;
   border-radius: 100%;
   display: inline-block;
   margin: 20px;
