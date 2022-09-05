@@ -2,8 +2,42 @@
   margin: 0;
 }
 
+body {
+  background-color: mintcream;
+  text-align: center;
+}
+
+#header {
+  margin: 20px;
+}
+
+#title {
+  background-color: powderblue;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+  border: 10px solid mediumseagreen;
+  border-radius: 15px;
+  font-family: Chewy, cursive, sans-serif;
+}
+
+#paragraphs {
+  background-color: powderblue;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+  border: 10px solid mediumseagreen;
+  border-radius: 15px;
+  font-family: Chewy, cursive, sans-serif;
+  font-size: 20px;
+}
+
 #colors {
-  border: 1px solid red;
+  background-color: powderblue;
+  border: 10px solid mediumseagreen;
+  margin: 20px auto;
+  width: 75%;
+  border-radius: 15px;
 }
 
 .ball {
@@ -12,4 +46,14 @@
   border-radius: 100%;
   display: inline-block;
   margin: 20px;
+  border: 7px solid black;
+}
+
+#reset-game {
+  background-color: black;
+  color: white;
+  font-family: Chewy, cursive, sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
 }

@@ -8,7 +8,6 @@ function randomColor() {
   const red = Math.floor(Math.random() * 256);
   const blue = Math.floor(Math.random() * 256);
   const green = Math.floor(Math.random() * 101);
-    
   return `rgb(${red}, ${green}, ${blue})`;
 }
 
@@ -21,10 +20,9 @@ function backgroundBall() {
 backgroundBall();
 
 function randomElementClassBall() {
-  const element = ball[Math.floor(Math.random() * ball.length)]
+  const element = ball[Math.floor(Math.random() * ball.length)];
   const elementColor = [];
   elementColor.push(element.style.backgroundColor);
-    
   return elementColor;
 }
 
@@ -32,17 +30,17 @@ pRgbColor.innerText = randomElementClassBall();
 pAnswer.innerText = 'Escolha uma cor';
 
 function ifColorEqual(event) {
-	if (event.target.style.backgroundColor == pRgbColor.innerText) {
-		pAnswer.innerText = 'Acertou!';
-    scoreNumber.innerText = parseInt(scoreNumber.innerText) + 3;
-	} else {
-		pAnswer.innerText = 'Errou! Tente novamente!';
+  if (event.target.style.backgroundColor === pRgbColor.innerText) {
+    pAnswer.innerText = 'Acertou!';
+    scoreNumber.innerText = parseInt(scoreNumber.innerText, 10) + 3;
+  } else {
+    pAnswer.innerText = 'Errou! Tente novamente!';
     scoreNumber.innerText = 0;
-	}
+  }
 }
 
 for (let index = 0; index < ball.length; index += 1) {
-	ball[index].addEventListener('click', ifColorEqual);
+  ball[index].addEventListener('click', ifColorEqual);
 }
 
 function resetGame() {
