@@ -1,7 +1,7 @@
 const ball = document.getElementsByClassName('ball');
 const pRgbColor = document.getElementById('rgb-color');
 const pAnswer = document.getElementById('answer');
-const buttonStart = document.getElementById('start');
+const buttonResetGame = document.getElementById('reset-game');
 
 function randomColor() {
   const red = Math.floor(Math.random() * 256);
@@ -41,3 +41,11 @@ function ifColorEqual(event) {
 for (let index = 0; index < ball.length; index += 1) {
 	ball[index].addEventListener('click', ifColorEqual);
 }
+
+function resetGame() {
+  pAnswer.innerText = 'Escolha uma cor';
+  backgroundBall();
+  pRgbColor.innerText = randomElementClassBall();
+}
+
+buttonResetGame.addEventListener('click', resetGame);
