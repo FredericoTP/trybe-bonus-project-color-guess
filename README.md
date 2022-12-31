@@ -78,6 +78,8 @@ As cores dos círculos são geradas via JavaScript como opção de cor de adivin
 
 ## 100% :heavy_check_mark:
 
+![Project-Bonus-Color-Guess-Grade](https://github.com/FredericoTP/trybe-bonus-project-color-guess/blob/main/images/color-guess-grade.png?raw=true)
+
 <br />
 
 ## 3- Preview
