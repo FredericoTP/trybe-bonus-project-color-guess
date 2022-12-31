@@ -56,4 +56,28 @@ body {
   padding: 15px;
   font-size: 20px;
   cursor: pointer;
+  margin: 0 0 20px;
+}
+
+@media screen and ( max-width : 627px ) {
+  #header {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  #title {
+    width: fit-content;
+    padding: 5px;
+  }
+
+  #paragraphs {
+  width: 80%;
+  font-size: 15px;
+  }
+
+  .ball {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
 }
