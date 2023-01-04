@@ -1,11 +1,9 @@
-# :construction: README em construção ! :construction:
-
 # :computer: Trybe-Bonus-Project-Color-Guess :computer:
 
 Nesse projeto foi desenvolvido uma aplicação onde é possível jogar um jogo de adivinhação de cores. Foram utilizados HTML, CSS e JavaScript no desenvolvimento.
 
 
-# Acesse o projeto clicando [aqui]()! :green_heart:
+# Acesse o projeto clicando [aqui](https://fredericotp.github.io/trybe-bonus-project-color-guess/)! :green_heart:
 
 <br />
 
@@ -83,3 +81,5 @@ As cores dos círculos são geradas via JavaScript como opção de cor de adivin
 <br />
 
 ## 3- Preview
+
+![Project-Bonus-Color-Guess-Preview](https://github.com/FredericoTP/trybe-bonus-project-color-guess/blob/main/images/color-guess-preview.png?raw=true)
