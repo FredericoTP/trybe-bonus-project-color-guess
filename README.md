@@ -1,4 +1,4 @@
-# :computer: Trybe-Bonus-Project-Color-Guess :computer:
+# :computer: Projeto Color Guess :computer:
 
 Nesse projeto foi desenvolvida uma aplicação onde é possível jogar um jogo de adivinhação de cores.
 <br />
